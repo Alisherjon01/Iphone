@@ -1,0 +1,131 @@
+@media(max-width: 1200px){
+    .header__img{
+        max-width: 100%;
+    }
+    .contacts__inner{
+        display: block;
+    }
+    .contacts__inner-form{
+        width: auto;
+    }
+    .contacts__inner-img{
+        width: 100%;
+    }
+    .contacts{
+        background: #574B63;
+    }
+    .nav__content{
+        width: 100%;
+    }
+    .new__title{
+        max-width: max-content;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .cards__card{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:1100px){
+    .cards__card{
+        flex-wrap: wrap;
+    }
+    .cards__card-item{
+        width: 50%;
+    }
+    .nav__content{
+        width: 100%;
+    }
+}
+@media(max-width:940px){
+    .new__content-right {
+        display: none;
+    }
+    .new__content-left{
+        width: max-content;
+    }
+    .new__content-subtitle{
+        max-width: 100%;
+    }
+
+    .new__content-text{
+        max-width: 100%;
+    }
+
+    .new__content-txt{
+        max-width: 100%;
+    }
+
+    .new__content-desc{
+        max-width: 100%;
+    }
+    .contacts__inner-title{
+        font-size: 25px;
+    }
+}
+@media(max-width: 768px){
+    .header,
+    .new{
+        padding: 50px 0;
+    }
+    .cards{
+        padding-bottom: 50px;
+    }
+    .contacts__inner-form{
+        padding: 50px 70px;
+    }
+    .nav__content{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media(max-width: 640px){
+    .footer__content{
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 15px;
+    }
+
+}
+@media(max-width: 560px){
+    h1{
+        font-size: 34px;
+        line-height: 42px;
+        display: inline-block;
+    }
+    .header__btn{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 16px 90px;
+    }
+    .new__title{
+        font-size: 28px;
+        line-height: 32px;
+    }
+   .cards__card-item img{
+    width: 100%;
+   }
+    .cards__card-item{
+        width: 100%;
+    }
+    .cards__card{
+        width: 100%;
+    }
+    .cards__title{
+        font-size: 25px;
+    }
+    .contacts__inner-title{
+        font-size: 20px;
+    }
+    .contacts__inner-form{
+        padding: 50px 30px;
+    }
+}
+@media(max-width: 375px){
+    .contacts__inner-form{
+        padding: 50px 10px;
+    }
+    .contacts__inner-title{
+        font-size: 20px;
+    }
+}
